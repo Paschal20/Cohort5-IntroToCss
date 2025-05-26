@@ -10,6 +10,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .cardholder {
@@ -21,6 +24,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 40px 30px 100px 0px;
 }
 .imgHolder {
   width: 150px;
