@@ -26,16 +26,39 @@ body {
   width: 150px;
   height: 150px;
   background-color: lightblue;
-  margin-top: -200px;
-  margin-bottom: 100px;
+  margin-top: -210px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
 }
+.imgHolder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .nameHolder {
   font-weight: 700;
   font-size: 20px;
   font-family: cursive;
-  margin-top: -30px;
 }
+.bioHolder {
+  width: 90%;
+  text-align: justify;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: poppins;
+  margin-top: 5px;
+}
+
+.stackHolder {
+  margin-top: 8px;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* img name stack bio button */
